@@ -40,9 +40,12 @@
   }
 
   $food = new food('バナナ', 300);
-  $food->show_price();
-
   $animal = new animal('インコ', 15, 50,);
+  print_r($food);
+  echo '</br>';
+  print_r($animal);
+  echo '</br>';
+  $food->show_price();
   $animal->show_height();
 
   ?>
